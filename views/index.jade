@@ -1,0 +1,83 @@
+extends layout
+
+block content
+  nav
+    ul
+      li#logo: a(href="#home"): img(src="/img/KnoblochLogo.png")
+      li: a(href="#services") Services
+      li: a(href="#whyus") Why Us?
+      li: a(href="#about") About
+      li: a(href="#contact") Contact
+      li: a(href='tel:1-815-219-8970')#phone +1 815 219 8970
+    #cheat
+      i.ion-chevron-right
+  .main
+    #short
+      img(src="").background
+      h1.header Knobloch Plumbing Incorporated
+
+    #services
+      #services-gutter
+        #header
+          h1 Our 
+          h1 Services
+        #info
+          h3 Lorem Ipsum
+          p Lorem Ipsum 
+      ul#servicelist
+        li
+          i.ion-videocamera
+          p.name Sewer Video Inspection
+          p.info Inspect those sewers and record them.
+        li
+          i.ion-settings
+          p.name Sewer & Water Repair
+          p.info Sewer or piping issues? Let us know!
+        li
+          i.ion-hammer
+          p.name New Construction
+          p.info Building a house or need help installing? We're waiting!
+        li
+          i.ion-home
+          p.name Remodeling
+          p.info Redoing your bathroom or kitchen? We can help out!
+        li
+          i.ion-wrench
+          p.name Commercial
+          p.info Gas Stations, Grocery Stores, Schools & more!
+        li
+          i.ion-ios7-telephone
+          p.name Service Calls
+          p.info From dripping faucets to broken sump or ejector pumps, we can fix it!
+
+    #services
+      .section
+        img(src='').background
+        h1.header
+        img.
+
+    #whyus
+      .section
+
+    #about
+      .section
+        img(src='').background
+        h1.header Our Family
+      .section
+        p We are a family owned business proudly serving the Marengo area. We are a fully licensed and bonded company.
+
+  #contact
+    .logo
+      a(href='#')
+        img(src='/img/KnoblochLogoWhite.png')
+    #info
+      .location
+        i.ion-location
+        span Marengo, IL
+      a(href='tel:1-815-219-8970') +1 815 219 8970
+
+  
+  a(href='#')#go-to-top
+    i.ion-chevron-up
+    br
+    span Go to Top
