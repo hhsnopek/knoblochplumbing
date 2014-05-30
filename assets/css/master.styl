@@ -17,44 +17,57 @@ nav
   font-family 'Rokkitt', sans-serif
   #cheat
     display none
+    position absolute
+    top 0
+    right 0
+    width 2em
+    height 5.25em
+    line-height 5.25em
+    vertical-align middle
+    text-align center
+    background: -moz-linear-gradient(right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, right top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+    +below(588px)
+      display block
+    i
+      font-size 2em
   ul
-    inline-list()
     width 100%
     height 5.25em
     color dark-gray
     background-color white
-    text-align center
     padding-left 15.75%
 
     +below(900px)
       padding-left 0
-    +below(750px)
+    +below(588px)
       position relative
       overflow hidden
       overflow-x auto
       white-space nowrap
       padding-bottom .5em
       li
-        float none
         display inline-block
         line-height 3.75em
         a
           margin-top -1em
-      #cheat
-        display block
 
   li
-    height 5.25em
+    display inline-block
+    height 100%
     padding .5em
     line-height 4.75em
+    vertical-align middle
     a
       reset-link()
 
-    +below(750px)
-      padding 0
+    +below(588px)
       padding-top .5em
       padding-bottom .5em
-      margin-top 0
 
   li:hover, li.active
     cursor pointer
@@ -66,11 +79,18 @@ nav
     padding-right 2em
     text-align left
     img
-      height 5.25em
+      height 4.75em
       padding .5em
       
-    +below(750px)
+    +below(630px)
       padding-right 0
+    +below(600px)
+      padding-top 0
+    +below(400px)
+      display none
+  li:last-of-type
+    +below(588px)
+      padding-right 4em
 
 
 .main
@@ -98,8 +118,13 @@ nav
       +below(500px)
         width 100%
         height 30%
+      +below(400px)
+        height 25%
+        margin 0
     +below(650px)
-      background-position right center
+      background-position right 
+    +below(400px)
+      height 25em
 
 #services
   height 30em
