@@ -21,7 +21,7 @@ require [
    * @param  {String} page    div without hash
   ###
   display = (page) ->
-    pagenation.set("requestedpage", page)
+    pagenation.set("currentpage", page)
     console.log "Displaying #{page}\n"
 
     if typeof page is 'undefined' or page is null
@@ -43,6 +43,8 @@ require [
       console.log "Hiding nothing"
     else
       $("##{page}").css('display', 'none')
+      if page is 'services'
+        $("#landing").css('display', 'none')
       console.log "Hiding: #{page}"
 
 
