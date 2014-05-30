@@ -3,36 +3,36 @@ extends layout
 block content
   nav
     ul
-      li#logo: a(href="#home"): img(src="/img/KnoblochLogo.png")
+      li#logo: a(href=""): img(src="/img/KnoblochLogo.png")
       li: a(href="#services") Services
       li: a(href="#whyus") Why Us?
       li: a(href="#about") About
       li: a(href="#contact") Contact
       li: a(href='tel:1-815-219-8970')#phone +1 815 219 8970
+
     #cheat
       i.ion-chevron-right
   .main
-    #short
-      img(src="").background
-      h1.header Knobloch Plumbing Incorporated
+    #landing
+      img(src='/img/KnoblochLogo.png').header
 
     #services
       #services-gutter
         #header
-          h1 Our 
-          h1 Services
+          h1 Our Services
         #info
-          h3 Lorem Ipsum
-          p Lorem Ipsum 
+          h3 We got the elbow grease to help you out!
+          #line
+          p A local family owned and operated company providing plumbing services since 2008. We get the job done swiftly with no hassle. Arriving quickly, using quality materials and workmanship, giving you 100% satisfaction that's guaranteed.
       ul#servicelist
         li
           i.ion-videocamera
           p.name Sewer Video Inspection
-          p.info Inspect those sewers and record them.
+          p.info Clogged or backed up piping that isn't inside your home? We can see what's the issue without digging up your yard or the street!
         li
           i.ion-settings
           p.name Sewer & Water Repair
-          p.info Sewer or piping issues? Let us know!
+          p.info Leaky faucet that just won't stop with a little patch? How about sewer damage, we can handle it for you. 
         li
           i.ion-hammer
           p.name New Construction
@@ -40,31 +40,18 @@ block content
         li
           i.ion-home
           p.name Remodeling
-          p.info Redoing your bathroom or kitchen? We can help out!
+          p.info Redoing the bathroom, kitchen sink, or just need new pipes installed? We can help out!
         li
-          i.ion-wrench
+          i.ion-briefcase
           p.name Commercial
-          p.info Gas Stations, Grocery Stores, Schools & more!
+          p.info Installation and repair at any Gas Station, Grocery Store, School or business!
         li
           i.ion-ios7-telephone
           p.name Service Calls
           p.info From dripping faucets to broken sump or ejector pumps, we can fix it!
 
-    #services
-      .section
-        img(src='').background
-        h1.header
-        img.
-
-    #whyus
-      .section
-
-    #about
-      .section
-        img(src='').background
-        h1.header Our Family
-      .section
-        p We are a family owned business proudly serving the Marengo area. We are a fully licensed and bonded company.
+    #satisfaction
+      h1.header 100% Satisfaction Guaranteed
 
   #contact
     .logo
@@ -75,9 +62,7 @@ block content
         i.ion-location
         span Marengo, IL
       a(href='tel:1-815-219-8970') +1 815 219 8970
+      p license: 058-177908
 
-  
-  a(href='#')#go-to-top
-    i.ion-chevron-up
-    br
-    span Go to Top
+  #copyright
+    p © 2014 Knobloch Plumbing Incorporated · All rights reserved.
