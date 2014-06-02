@@ -3,10 +3,10 @@ extends layout
 block content
   nav
     ul
-      li#logo: a(href=""): img(src="/img/KnoblochLogo.png")
+      li#logo: a(href=""): img(src="/img/KnoblochLogo.png" alt='Knobloch Plumbing Inc Logo')
       li: a(href="#services") Services
-      li.disabled: a(href="#whyus") Why Us?
-      li.disabled: a(href="#about") About
+      li: a(href="#whyus") Why Us?
+      li: a(href="#about") About
       li: a(href="#contact") Contact
       li: a(href='tel:1-815-219-8970')#phone +1 815 219 8970
 
@@ -15,7 +15,7 @@ block content
 
   .main
     #landing
-      img(src='/img/KnoblochLogo.png').header
+      img(src='/img/KnoblochLogo.png' alt='Knobloch Plumbing Inc Logo').header
 
     #services
       #services-gutter
@@ -45,7 +45,7 @@ block content
         li
           i.ion-briefcase
           p.name Commercial
-          p.info Installation and repair at any gas station, grocery store, school or your business!
+          p.info Installation and repair at any gas station, grocery store, school or at your business!
         li
           i.ion-ios7-telephone
           p.name Service Calls
@@ -65,7 +65,7 @@ block content
 
     #whyus
       #header
-        h1.header Why Us? 
+        h1.header Why Us?
 
       p
         Lorem ipsum dolor sit amet, erant impetus tibique sed ut. Duo cu assum admodum, et choro noster mea. Et veniam omnesque salutatus pri, in platonem similique eam. His ea stet aperiri perpetua, te graeco abhorreant sea. Alia veritus urbanitas id per. No primis voluptatum sea, usu alterum suavitate intellegat ea.
@@ -82,7 +82,7 @@ block content
   #contact
     .logo
       a(href='#')
-        img(src='/img/KnoblochLogoWhite.png')
+        img(src='/img/KnoblochLogoWhite.png' alt='Knobloch Plumbing Inc Logo')
     #info
       .location
         i.ion-location
