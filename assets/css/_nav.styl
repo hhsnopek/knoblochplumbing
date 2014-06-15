@@ -1,0 +1,76 @@
+nav
+  font-family 'Rokkitt', sans-serif
+
+  #chev-right
+    display none
+    position absolute
+    top 0
+    right 0
+    width 32px
+    height 100px
+    vertical-align middle
+    text-align center
+    background: -moz-linear-gradient(right, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%)
+    background: -webkit-gradient(linear, right top, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0)))
+    background: -webkit-linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)
+    background: -o-linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)
+    background: -ms-linear-gradient(right, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)
+    background: linear-gradient(to left, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%)
+
+    +below(555px)
+      display block
+
+    i
+      font-size 32px
+      line-height 100px
+
+  ul
+    width 100%
+    height 100px
+    color dark-gray
+    background-color white
+    padding-left 15.75%
+
+    +below(900px)
+      padding-left 0
+
+    +below(610px)
+      position relative
+      overflow hidden
+      overflow-x auto
+      white-space nowrap
+
+  li
+    display inline-block
+    height 100%
+    vertical-align middle
+    line-height 100px
+    margin-right 15px
+
+    a
+      reset-link()
+      font-size 1.1em
+
+    a:hover, a.active
+      cursor pointer
+      color red
+  
+  #phone
+    color blue
+
+  li:last-of-type
+    margin-right 40px
+
+  li:nth-of-type(2)
+    +below(440px)
+      padding-left 15px
+
+  li:nth-of-type(1)
+    text-align left
+
+    img
+      padding 15px 0 0 15px
+      height 75px
+      
+    +below(440px)
+      display none

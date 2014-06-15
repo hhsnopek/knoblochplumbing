@@ -1,0 +1,50 @@
+#about
+  display block
+  height 21em
+  width 100%
+  position relative
+  color #28282e
+  background-color #eeeeee
+
+  +below(588px)
+    padding 20px
+  +below(520px)
+    height 23em
+  +below(430px)
+    height 25em
+  +below(351px)
+    height 27em
+  +below(330px)
+    height 30em
+
+  .wrap
+    span(1/4)
+
+    +below(800px)
+      display none
+
+    img
+      max-height 21em
+
+  #wrap
+    span(2/4)
+    margin-left 15%
+
+    +below(1000px)
+      margin-left 20%
+    +below(900px)
+      margin-left 25%
+    +below(800px)
+      cf()
+      width 100%
+      margin 0
+
+    h1, p
+      center(90%)
+      color #28282e
+    h1
+      margin-bottom 0
+      border-bottom 4px solid grey
+      
+      +below(400px)
+        margin-top 0
