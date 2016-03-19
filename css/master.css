@@ -308,10 +308,7 @@ nav li:nth-of-type(1) img {
 #about .wrap {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
-  padding-left: 0;
-  padding-right: 0;
   text-align: inherit;
   width: 25%;
   margin-left: 0%;
@@ -336,10 +333,7 @@ nav li:nth-of-type(1) img {
 #about #wrap {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
-  padding-left: 0;
-  padding-right: 0;
   text-align: inherit;
   width: 50%;
   margin-left: 0%;
@@ -452,10 +446,7 @@ nav li:nth-of-type(1) img {
   height: 100%;
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
-  padding-left: 0;
-  padding-right: 0;
   text-align: inherit;
   width: 33.3333333333333%;
   margin-left: 0%;
@@ -553,10 +544,7 @@ nav li:nth-of-type(1) img {
 #services #servicelist {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
-  padding-left: 0;
-  padding-right: 0;
   text-align: inherit;
   width: 66.6666666666667%;
   margin-left: 0%;
@@ -573,10 +561,7 @@ nav li:nth-of-type(1) img {
 #services #servicelist li {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
-  padding-left: 0;
-  padding-right: 0;
   text-align: inherit;
   width: 33.3333333333333%;
   margin-left: 0%;
@@ -585,6 +570,7 @@ nav li:nth-of-type(1) img {
   transition: none !important;
   height: 15em;
   text-align: center;
+  list-style: none;
 }
 #services #servicelist li:before,
 #services #servicelist li:after {
@@ -632,10 +618,7 @@ nav li:nth-of-type(1) img {
   #services #servicelist li {
     *zoom: 1;
     float: left;
-    display: inline;
     clear: none;
-    padding-left: 0;
-    padding-right: 0;
     text-align: inherit;
     width: 50%;
     margin-left: 0%;
@@ -824,11 +807,8 @@ nav li:nth-of-type(1) img {
 #contact .logo {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
   text-align: inherit;
-  padding-left: 0;
-  padding-right: 0;
   width: 48.5%;
   margin-left: 0%;
   margin-right: 3%;
@@ -850,11 +830,8 @@ nav li:nth-of-type(1) img {
 #contact #info {
   *zoom: 1;
   float: left;
-  display: inline;
   clear: none;
   text-align: inherit;
-  padding-left: 0;
-  padding-right: 0;
   width: 48.5%;
   margin-left: 0%;
   margin-right: 3%;
