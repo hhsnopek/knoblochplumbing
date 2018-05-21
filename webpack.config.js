@@ -27,7 +27,7 @@ const postcssLoader = env => {
   }
 
   return {
-    test: /\.css$/,
+    test: /\.sss$/,
     use: env !== 'node' ? loader[env] : loader.prod,
   }
 }

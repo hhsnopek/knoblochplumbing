@@ -8,7 +8,7 @@ import './index.sss'
 const Nav = ({ phoneNumber }) => (
   <nav>
     <ul>
-      <li id="logo">
+      <li>
         <img src={logo} alt="Knobloch Plumbing Inc. logo" />
       </li>
       <li>
@@ -24,8 +24,8 @@ const Nav = ({ phoneNumber }) => (
         <a href={`tel:${phoneNumber}`}>{`+${phoneNumber.replace('-', ' ')}`}</a>
       </li>
     </ul>
-    <div id="chev-right">
-      <Ionicon icon="ios-arrow-forward" />
+    <div id="cheveron">
+      <Ionicon icon="ios-arrow-forward"/>
     </div>
   </nav>
 )

@@ -9,7 +9,7 @@ const About = () => (
       <img src={family} alt="Knobloch Family" />
     </div>
     <div id="wrap">
-      <h1>Who We Are</h1>
+      <h2>Who We Are</h2>
       <p>
         We are a local, small family owned buisness that takes pride in quality
         work. We are a close family of six, with four children, one in the navy,

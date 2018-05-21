@@ -19,10 +19,10 @@
   "dependencies": {
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-hot-loader": "^4.0.0-beta.21",
+    "react-hot-loader": "^4.2.0",
     "react-ionicons": "^2.1.6",
     "react-router": "^4.2.0",
-    "react-static": "^5.9.1"
+    "react-static": "^5.9.3"
   },
   "devDependencies": {
     "autoprefixer": "^8.5.0",
@@ -39,7 +39,7 @@
     "stylelint-config-standard": "^18.2.0",
     "sugarss": "^1.0.1"
   },
-	"lint-staged": {
+  "lint-staged": {
     "*.{js,jsx}": [
       "eslint --fix",
       "git add"
